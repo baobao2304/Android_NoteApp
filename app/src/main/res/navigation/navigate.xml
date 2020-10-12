@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigate"
+    app:startDestination="@id/homeBlankFragment">
+
+    <fragment
+        android:id="@+id/homeBlankFragment"
+        android:name="com.example.android_noteapp.ui.fragment.HomeBlankFragment"
+        android:label="fragment_home_blank"
+        tools:layout="@layout/fragment_home_blank" >
+        <action
+            android:id="@+id/action_homeBlankFragment_to_searchBlankFragment"
+            app:destination="@id/searchBlankFragment" />
+        <action
+            android:id="@+id/action_homeBlankFragment_to_addNoteBlankFragment"
+            app:destination="@id/addNoteBlankFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchBlankFragment"
+        android:name="com.example.android_noteapp.ui.fragment.SearchBlankFragment"
+        android:label="fragment_search_blank"
+        tools:layout="@layout/fragment_search_blank" >
+        <action
+            android:id="@+id/action_searchBlankFragment_to_homeBlankFragment"
+            app:destination="@id/homeBlankFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addNoteBlankFragment"
+        android:name="com.example.android_noteapp.ui.fragment.AddNoteBlankFragment"
+        android:label="fragment_add_note_blank"
+        tools:layout="@layout/fragment_add_note_blank" >
+        <action
+            android:id="@+id/action_addNoteBlankFragment_to_homeBlankFragment"
+            app:destination="@id/homeBlankFragment" />
+    </fragment>
+</navigation>

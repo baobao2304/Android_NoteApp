@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/checkbox"
+        android:title="Settings"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_outline_check_box_24"/>
+    <item
+        android:id="@+id/draw"
+        android:title="Settings"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_outline_brush_24"/>
+    <item
+        android:id="@+id/voice"
+        android:title="Voice"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_outline_keyboard_voice_24"
+        />
+    <item
+        android:id="@+id/image"
+        android:title="Voice"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_outline_image_24"
+        />
+
+</menu>

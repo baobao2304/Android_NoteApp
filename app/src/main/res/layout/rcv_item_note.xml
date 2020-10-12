@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    android:background="@drawable/bg_border_grey"
+    android:gravity="center"
+    >
+    <TextView
+        android:id="@+id/txtTitleNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
+        android:text="Name Title"/>
+    <TextView
+        android:id="@+id/txtContentNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="150dp"
+        android:padding="10dp"
+        android:textSize="15dp"
+        android:textColor="@color/colorWhite"
+        android:text="CONTENT
+            sdf
+            sdf
+            sdf
+            sdf
+            sdf
+            sdf
+            sdf
+            sdf
+            dsf
+            sd
+            fsdf
+            sd
+            fsd
+            fsd
+            fsd
+            f"/>
+</LinearLayout>
